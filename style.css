@@ -1,621 +1,102 @@
+@keyframes traffic {
+    0% {background: red;}
+    49% {background: red;}
+    50% {background: yellow;}
+    69% {background: yellow;}
+    70%{background: rgb(18, 185, 18);;}
+    100%{background: rgb(18, 185, 18);;}
+}
+@keyframes traffic1 {
+    0% {background: red;}
+    49% {background: red;}
+    50% {background: yellow;}
+    69% {background: yellow;}
+    70%{background: rgb(18, 185, 18);;}
+    100%{background: rgb(18, 185, 18);;}
+}
+@keyframes traffic2 {
+    0% {background: rgb(18, 185, 18);}
+    49% {background: rgb(18, 185, 18);}
+    50% {background: yellow;}
+    69% {background: yellow;}
+    70%{background: red}
+    100%{background: red;}
+}
+@keyframes traffic3 {
+    0% {background: rgb(18, 185, 18);}
+    49% {background: rgb(18, 185, 18);}
+    50% {background: yellow;}
+    69% {background: yellow;}
+    70%{background: red}
+    100%{background: red;}
+}
 body{
-    background-color: white;
-    height: 2000px;
+    height: 90vh;
 }
-header{
-    background-color: #E9E9E9; 
-    height: 70px;
-}
-#png{
+#img{
+    width: 700px;
     position: absolute;
-    width: 180px;
-    left: 87%;
-    top: -2%;
-    border-radius: 0px;    
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
-#png2{
+#center{
+    background-color: grey;
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
     position: absolute;
-    width: 250px;
-    height: 250px;
-    left: 100px;
-    top: 134px;
-    background: url(2.png);
+    top: 49.8%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
-#text{
+#top{
+    background-color: rgb(194, 26, 26);
+    width: 120px;
+    height: 80px;
+    border-radius: 100%;
     position: absolute;
-    height: 90px;
-    Top: 95px;
-    Left: 400px;
-    font-family: Fira Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 70px;
-    line-height: 132px;
-    color: #000000;
-    
+    top: 41%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    animation: traffic 5s linear infinite;
 }
-#text2{
+#bottom{
+    background-color: rgb(194, 26, 26);
+    width: 120px;
+    height: 80px;
+    border-radius: 100%;
     position: absolute;
-    left: 400px;
-    top: 205px;
-    font-family: Rubik;
-    font-size: 23px;
-    font-weight: 400;
-    color: #000000;
+    top: 58%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    animation: traffic1 5s linear infinite;
 }
-#text3{
+#left{
+    background-color: rgb(54, 185, 71);
+    width: 80px;
+    height: 120px;
+    border-radius: 100%;
     position: absolute;
-    width: 353px;
-    height: 46px;
-    left: 400px;
-    top: 280px;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 23px;
-    line-height: 46px;
-    color: #000000;
+    top: 49.7%;
+    left: 46%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    animation: traffic2 5s linear infinite;
 }
-#text3p{
+#right{
+    background-color: rgb(54, 185, 71);
+    width: 80px;
+    height: 120px;
+    border-radius: 100%;
     position: absolute;
-    height: 46px;
-    left: 590px;
-    top: 280px;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 23px;
-    line-height: 46px;
-    color: rgba(190, 190, 190, 0.801);
-}
-#text4{
-    position: absolute;
-    width: 353px;
-    height: 46px;
-    left: 400px;
-    top: 320px;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 23px;
-    line-height: 46px;
-    color: #000000;
-}
-#text5{
-    position: absolute;
-    height: 46px;
-    left: 400px;
-    top: 400px;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 23px;
-    line-height: 46px;
-    color: #000000;
-}
-#text6{
-    position: absolute;
-    height: 46px;
-    left: 400px;
-    top: 440px;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 23px;
-    line-height: 46px;
-    color: #000000;
-}
-#text7{
-    position: absolute;
-    height: 46px;
-    left: 400px;
-    top: 480px;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 23px;
-    line-height: 46px;
-    color: #000000;
-}
-#section1{
-    position: absolute;
-    width: 744px;
-    height: 58px;
-    left: 100px;
-    top: 580px;
-    font-family: Rubik;
-    font-weight: 400;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 58px;
-    color: rgba(190, 190, 190, 0.801);
-}
-#line1{
-    position: absolute;
-    width: 85%;
-    left: 100px;
-    top: 630px;
-    border: 1.5px solid rgba(190, 190, 190, 0.801);
-    background-color: rgba(190, 190, 190, 0.801);
-}
-#text8{
-    position: absolute;
-    width: 319px;
-    height: 58px;
-    left: 100px;
-    top: 670px;
-    font-family: Fira Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 35px;
-    line-height: 58px;
-    color: #000000;
-}
-.text9{
-    position: absolute;
-    width: 283px;
-    height: 132px;
-    left: 73%;
-    top: 670px;
-    font-family: Fira Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 35px;
-    line-height: 66px;
-    text-align: right;
-    
-    color: #000000;
-    
-}
-.text10{
-    position: absolute;
-    width: 283px;
-    height: 132px;
-    left: 73%;
-    top: 700px;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 66px;
-    text-align: right;
-    
-    color: #000000;
-    
-}
-#text11{
-    position: absolute;
-    width: 478px;
-    height: 46px;
-    left: 100px;
-    top: 800px;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 23px;
-    line-height: 46px;
-    color: #000000;
-}
-#text12{
-    position: absolute;
-    height: 46px;
-    left: 180px;
-    top: 850px;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 23px;
-    line-height: 46px;
-    color: #000000;
-}
-#text13{
-    position: absolute;
-    height: 46px;
-    left: 100px;
-    top: 900px;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 23px;
-    line-height: 46px;
-    color: #000000;
-}
-#text14{
-    position: absolute;
-    height: 46px;
-    left: 100px;
-    top: 950px;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 23px;
-    line-height: 46px;
-    color: #000000;
-}
-#section2{
-    position: absolute;
-    width: 744px;
-    height: 58px;
-    left: 100px;
-    top: 1060px;
-    font-family: Rubik;
-    font-weight: 400;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 58px;
-    color: rgba(190, 190, 190, 0.801);
-}
-#line2{
-    position: absolute;
-    width: 85%;
-    left: 100px;
-    top: 1110px;
-    border: 1.5px solid rgba(190, 190, 190, 0.801);
-    background-color: rgba(190, 190, 190, 0.801);
-}
-#text15{
-    position: absolute;
-    height: 46px;
-    left: 100px;
-    top: 1160px;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 23px;
-    line-height: 46px;
-    color: #000000;
-}
-#text16{
-    position: absolute;
-    width: 98px;
-    height: 58px;
-    font-family: Rubik;
-    font-style: normal;
-    left: 100px;
-    top: 1220px;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 58px;
-    color: rgba(0, 0, 0, 0.6);
-}
-#text17{
-    left: 500px;
-    top: 1220px;
-    position: absolute;
-    height: 66px;
-    font-family: Fira Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 66px;
-    color: #000000;
-}
-#section3{
-    position: absolute;
-    width: 744px;
-    height: 58px;
-    left: 100px;
-    top: 1350px;
-    font-family: Rubik;
-    font-weight: 400;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 58px;
-    color: rgba(190, 190, 190, 0.801);
-}
-#line3{
-    position: absolute;
-    width: 85%;
-    left: 100px;
-    top: 1402px;
-    border: 1.5px solid rgba(190, 190, 190, 0.801);
-    background-color: rgba(190, 190, 190, 0.801);
-}
-.text18{
-    left: 100px;
-    top: 1440px;
-    position: absolute;
-    width: 341px;
-    height: 58px;
-    font-family: Fira Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 21px;
-    line-height: 58px;
-    color: rgba(0, 0, 0, 0.6);
-}
-#text19{
-    left: 500px;
-    top: 1440px;
-    position: absolute;
-    width: 341px;
-    height: 58px;
-    font-family: Fira Sans;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 58px;
-    color: rgb(0, 0, 0);
-}
-#text19p{
-    left: 605px;
-    top: 1440px;
-    position: absolute;
-    width: 341px;
-    height: 58px;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 21px;
-    line-height: 58px;
-    color: rgba(190, 190, 190, 0.801);
-}
-#text20{
-    left: 500px;
-    top: 1470px;
-    position: absolute;
-    width: 341px;
-    height: 58px;
-    font-family: Fira Sans;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 58px;
-    color: rgb(0, 0, 0);
-}
-#text20p{
-    left: 580px;
-    top: 1470px;
-    position: absolute;
-    width: 341px;
-    height: 58px;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 21px;
-    line-height: 58px;
-    color: rgba(190, 190, 190, 0.801);
-}
-#text21{
-    left: 500px;
-    top: 1500px;
-    position: absolute;
-    width: 341px;
-    height: 58px;
-    font-family: Fira Sans;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 58px;
-    color: rgb(0, 0, 0);
-}
-#text21p{
-    left: 618px;
-    top: 1500px;
-    position: absolute;
-    width: 341px;
-    height: 58px;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 21px;
-    line-height: 58px;
-    color: rgba(190, 190, 190, 0.801);
-}
-#text22{
-    left: 100px;
-    top: 1590px;
-    position: absolute;
-width: 175px;
-height: 58px;
-font-family: Fira Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 21px;
-line-height: 58px;
-color: rgba(0, 0, 0, 0.6);
-}
-#text23{
-    left: 500px;
-    top: 1600px;
-    position: absolute;
-height: 25px;
-width: 180px;
-text-align: center;
-font-family: Fira Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 19px;
-background-color: #C4C4C4;
-color: rgb(0, 0, 0);
-}
-#text24{
-    left: 700px;
-    top: 1600px;
-    position: absolute;
-height: 25px;
-width: 210px;
-text-align: center;
-font-family: Fira Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 19px;
-background-color: #C4C4C4;
-color: rgb(0, 0, 0);
-}
-#text25{
-    left: 930px;
-    top: 1600px;
-    position: absolute;
-height: 25px;
-width: 70px;
-text-align: center;
-font-family: Fira Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 19px;
-background-color: #C4C4C4;
-color: rgb(0, 0, 0);
-}
-#text26{
-    left: 1020px;
-    top: 1600px;
-    position: absolute;
-height: 25px;
-width: 90px;
-text-align: center;
-font-family: Fira Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 19px;
-background-color: #C4C4C4;
-color: rgb(0, 0, 0);
-}
-#text27{
-    left: 1130px;
-    top: 1600px;
-    position: absolute;
-height: 25px;
-width: 160px;
-text-align: center;
-font-family: Fira Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 19px;
-background-color: #C4C4C4;
-color: rgb(0, 0, 0);
-}
-#text28{
-    left: 500px;
-    top: 1650px;
-    position: absolute;
-height: 25px;
-width: 70px;
-text-align: center;
-font-family: Fira Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 19px;
-background-color: #C4C4C4;
-color: rgb(0, 0, 0);
-}
-#text29{
-    left: 590px;
-    top: 1650px;
-    position: absolute;
-height: 25px;
-width: 70px;
-text-align: center;
-font-family: Fira Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 19px;
-background-color: #C4C4C4;
-color: rgb(0, 0, 0);
-}
-#text30{
-    left: 680px;
-    top: 1650px;
-    position: absolute;
-height: 25px;
-width: 70px;
-text-align: center;
-font-family: Fira Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 19px;
-background-color: #C4C4C4;
-color: rgb(0, 0, 0);
-}
-#text31{
-    left: 770px;
-    top: 1650px;
-    position: absolute;
-height: 25px;
-width: 70px;
-text-align: center;
-font-family: Fira Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 19px;
-background-color: #C4C4C4;
-color: rgb(0, 0, 0);
-}
-#text32{
-    left: 860px;
-    top: 1650px;
-    position: absolute;
-height: 25px;
-width: 160px;
-text-align: center;
-font-family: Fira Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 19px;
-background-color: #C4C4C4;
-color: rgb(0, 0, 0);
-}
-#text33{
-    left: 500px;
-    top: 1700px;
-    position: absolute;
-height: 25px;
-width: 270px;
-text-align: center;
-font-family: Fira Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 19px;
-background-color: #C4C4C4;
-color: rgb(0, 0, 0);
-}
-#section4{
-    position: absolute;
-    width: 744px;
-    height: 58px;
-    left: 100px;
-    top: 1780px;
-    font-family: Rubik;
-    font-weight: 400;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 58px;
-    color: rgba(190, 190, 190, 0.801);
-}
-#line4{
-    position: absolute;
-    width: 85%;
-    left: 100px;
-    top: 1830px;
-    border: 1.5px solid rgba(190, 190, 190, 0.801);
-    background-color: rgba(190, 190, 190, 0.801);
-}
-#text34{
-    left: 100px;
-    top: 1890px;
-    position: absolute;
-    width: 341px;
-    height: 58px;
-    font-family: Fira Sans;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 58px;
-    color: rgba(0, 0, 0, 0.6);
-}
-#text35{
-    left: 500px;
-    top: 1890px;
-    position: absolute;
-    height: 58px;
-    font-family: Fira Sans;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 58px;
-    color: rgb(0, 0, 0);
+    top: 49.7%;
+    left: 54%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    animation: traffic3 5s linear infinite;
 }
